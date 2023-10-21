@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    /* border: 2px solid yellow; */
+    grid-template-columns: auto auto auto;
+    width: 1230px;
+}
+
+.col{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+
+.col2{
+    /* border: 2px solid red; */
+    margin: 20px;
+}
+
+.player{
+    border: 4px solid grey;
+    padding: 40px 0px 0px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+
+.player img{
+    width: 100px;
+}
+
+.player h1{
+    font-size: 50px;
+}
+
+.col{
+    text-align: center;
+}
