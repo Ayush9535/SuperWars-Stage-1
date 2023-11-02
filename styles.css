@@ -55,7 +55,9 @@ body{
     width: 150px;
     grid-column-start: 3;
 }
-
+.col3 img{
+    width: 90px;
+}
 @media all  and (max-width:1400px){
     .col3{
         grid-column-start: 2;
